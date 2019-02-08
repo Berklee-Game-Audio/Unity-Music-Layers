@@ -948,6 +948,7 @@ GameObject:
   - component: {fileID: 590026657}
   - component: {fileID: 590026656}
   - component: {fileID: 590026655}
+  - component: {fileID: 590026660}
   m_Layer: 0
   m_Name: Cylinder - Layer 3 Off
   m_TagString: Untagged
@@ -1043,6 +1044,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &590026660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590026654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 392da42b542654cd8947f2e7248b2261, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myVideoPlayer: {fileID: 1779073555}
+  myVideoClip: {fileID: 32900000, guid: 4f8a813374b054be481f5262bfb59ccb, type: 3}
 --- !u!1 &625965619
 GameObject:
   m_ObjectHideFlags: 0
@@ -1645,6 +1660,7 @@ GameObject:
   - component: {fileID: 1164318886}
   - component: {fileID: 1164318885}
   - component: {fileID: 1164318884}
+  - component: {fileID: 1164318889}
   m_Layer: 0
   m_Name: Sphere - Layer 2 Off
   m_TagString: Untagged
@@ -1733,12 +1749,26 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1164318883}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.5, y: 4.54, z: -0.47}
+  m_LocalPosition: {x: 14.5, y: 4.54, z: -0.56}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1164318889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164318883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 392da42b542654cd8947f2e7248b2261, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myVideoPlayer: {fileID: 1779073555}
+  myVideoClip: {fileID: 32900000, guid: 1fc7cdff5b31149f4b5bdc70bcd47bd5, type: 3}
 --- !u!1 &1234374435
 GameObject:
   m_ObjectHideFlags: 0
