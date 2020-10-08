@@ -5,4 +5,4 @@ Video Tutorial:
 https://www.youtube.com/watch?v=HXBxrhnXDfk
 
 Optimized for Unity Version:
-2019.4.2f1
+2020.1.3f1
