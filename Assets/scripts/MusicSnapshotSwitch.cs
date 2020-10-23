@@ -4,9 +4,11 @@ using UnityEngine.Audio;
 
 public class MusicSnapshotSwitch : MonoBehaviour {
 
-	public AudioMixerSnapshot mySnapshot;
-	public float fadeTime = 3.0f;
+	public float fadeDuration = 3.0f;
 	public float delayTime = 0.0f;
+	public float targetVolume = 80.0f;
+	public AudioMixer audioMixer;
+	private string exposedParameter = "masterVolume";
 
 	// Use this for initialization
 	void Start () {
@@ -22,11 +24,11 @@ public class MusicSnapshotSwitch : MonoBehaviour {
 		Debug.Log("OnTriggerEnter");
 		if(delayTime < 0.05f)
         {
-			mySnapshot.TransitionTo(fadeTime);
+			StartCoroutine(FadeMixerGroup.StartFade (audioMixer, exposedParameter, fadeDuration, targetVolume));
+			//mySnapshot.TransitionTo(fadeTime);
 		} else
         {
 			StartCoroutine(startDelayedTransition());
-			
 		}
 
 
@@ -45,7 +47,7 @@ public class MusicSnapshotSwitch : MonoBehaviour {
 		//After we have waited 5 seconds print the time again.
 		Debug.Log("Beginning delayed snapshot at: " + Time.time);
 
-		mySnapshot.TransitionTo(fadeTime);
+		StartCoroutine(FadeMixerGroup.StartFade(audioMixer, exposedParameter, fadeDuration, targetVolume));
 	}
 
 }

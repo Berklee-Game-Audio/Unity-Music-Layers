@@ -364,9 +364,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08f9a86875208458690145038ed35594, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mySnapshot: {fileID: 24500003, guid: 841d33d5941224dadba11381a5bd9c96, type: 2}
-  fadeTime: 2
+  fadeDuration: 3
   delayTime: 0
+  targetVolume: 80
+  audioMixer: {fileID: 24100000, guid: 841d33d5941224dadba11381a5bd9c96, type: 2}
 --- !u!23 &22202742
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1015,9 +1016,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08f9a86875208458690145038ed35594, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mySnapshot: {fileID: 24518514, guid: fcc7e63139ac84677bbc0fd04648d796, type: 2}
-  fadeTime: 5
+  fadeDuration: 5
   delayTime: 0
+  targetVolume: 0
+  audioMixer: {fileID: 24100000, guid: fcc7e63139ac84677bbc0fd04648d796, type: 2}
 --- !u!23 &590026656
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1747,9 +1749,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08f9a86875208458690145038ed35594, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mySnapshot: {fileID: 24528564, guid: af5936f1a93e54f3fbe4bc126aadea48, type: 2}
-  fadeTime: 5
+  fadeDuration: 5
   delayTime: 0
+  targetVolume: 0
+  audioMixer: {fileID: 24100000, guid: af5936f1a93e54f3fbe4bc126aadea48, type: 2}
 --- !u!23 &1164318885
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2346,9 +2349,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08f9a86875208458690145038ed35594, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mySnapshot: {fileID: 24500003, guid: af5936f1a93e54f3fbe4bc126aadea48, type: 2}
-  fadeTime: 2
+  fadeDuration: 3
   delayTime: 0
+  targetVolume: 80
+  audioMixer: {fileID: 24100000, guid: af5936f1a93e54f3fbe4bc126aadea48, type: 2}
 --- !u!23 &1887311039
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2567,9 +2571,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08f9a86875208458690145038ed35594, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mySnapshot: {fileID: 24500003, guid: fcc7e63139ac84677bbc0fd04648d796, type: 2}
-  fadeTime: 2
+  fadeDuration: 3
   delayTime: 0
+  targetVolume: 80
+  audioMixer: {fileID: 24100000, guid: fcc7e63139ac84677bbc0fd04648d796, type: 2}
 --- !u!23 &2037967082
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2693,9 +2698,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08f9a86875208458690145038ed35594, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mySnapshot: {fileID: 24585138, guid: 841d33d5941224dadba11381a5bd9c96, type: 2}
-  fadeTime: 5
+  fadeDuration: 5
   delayTime: 0
+  targetVolume: 0
+  audioMixer: {fileID: 24100000, guid: 841d33d5941224dadba11381a5bd9c96, type: 2}
 --- !u!23 &2094205044
 MeshRenderer:
   m_ObjectHideFlags: 0
