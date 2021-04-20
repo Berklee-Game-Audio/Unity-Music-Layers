@@ -1,7 +1,7 @@
 Using pre-set license
 
  COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/MacOS/Unity
+/Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
@@ -12,112 +12,88 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58605
+64497
 Successfully changed project path to: /Users/michaelsweet/GoogleDrive/_CloudSync/Work/Berklee/GIT/Unity-Music-Layers
 /Users/michaelsweet/GoogleDrive/_CloudSync/Work/Berklee/GIT/Unity-Music-Layers
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 24.23 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 22.00 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/Resources/UnitySubsystems
+Initialize engine version: 2020.3.3f1 (76626098c1c4)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/michaelsweet/GoogleDrive/_CloudSync/Work/Berklee/GIT/Unity-Music-Layers/Assets
 GfxDevice: creating device client; threaded=0
-2021-02-04 07:56:19.798 Unity[27226:16800336] LG Ultra HD preferred device: AMD Radeon Pro 5500M (high power)
-2021-02-04 07:56:19.798 Unity[27226:16800336] Metal devices available: 2
-2021-02-04 07:56:19.798 Unity[27226:16800336] 0: AMD Radeon Pro 5500M (high power)
-2021-02-04 07:56:19.798 Unity[27226:16800336] 1: Intel(R) UHD Graphics 630 (low power)
-2021-02-04 07:56:19.799 Unity[27226:16800336] Using device AMD Radeon Pro 5500M (high power)
+2021-04-20 09:48:31.214 Unity[26606:9620891] Color LCD preferred device: AMD Radeon Pro 5500M (high power)
+2021-04-20 09:48:31.214 Unity[26606:9620891] Metal devices available: 2
+2021-04-20 09:48:31.214 Unity[26606:9620891] 0: AMD Radeon Pro 5500M (high power)
+2021-04-20 09:48:31.214 Unity[26606:9620891] 1: Intel(R) UHD Graphics 630 (low power)
+2021-04-20 09:48:31.215 Unity[26606:9620891] Using device AMD Radeon Pro 5500M (high power)
 Initializing Metal device caps: AMD Radeon Pro 5500M
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56226
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56606
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2020.2.1f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000763 seconds.
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.3f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002789 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 24.63 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 22.05 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.750 seconds
+- Completed reload, in  1.628 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001522 seconds.
+Registered in 0.003181 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.112 seconds
+- Completed reload, in  0.980 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launching external process: /Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1138 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 110.8 MB.
-System memory in use after: 110.8 MB.
+Unloading 1179 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.5 MB.
+System memory in use after: 113.6 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1586.
-Total: 1.468420 ms (FindLiveObjects: 0.143654 ms CreateObjectMapping: 0.036113 ms MarkObjects: 1.236010 ms  DeleteObjects: 0.051788 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1628.
+Total: 1.779447 ms (FindLiveObjects: 0.128792 ms CreateObjectMapping: 0.036564 ms MarkObjects: 1.560305 ms  DeleteObjects: 0.053053 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/stingers/new_stinger_1.wav
-  artifactKey: Guid(5fdad3d60ba614791a17f4a92980cb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/stingers/new_stinger_1.wav using Guid(5fdad3d60ba614791a17f4a92980cb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e30dd9b2187b70333aa774cae4a711') in 0.878502 seconds
-  Import took 0.880403 seconds .
+  path: Assets/music/mx_layer_3.wav
+  artifactKey: Guid(9add7fe303e954f22b91451062819e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/music/mx_layer_3.wav using Guid(9add7fe303e954f22b91451062819e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea0392b15a44b91c83e76e80da5aa0e1') in 0.952712 seconds
+  Import took 0.954731 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/stingers/new_stinger_2.wav
-  artifactKey: Guid(4f9f2ce0bdcdf4231a20f6868edaf877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/stingers/new_stinger_2.wav using Guid(4f9f2ce0bdcdf4231a20f6868edaf877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6405b84250645f243eebdd9771092727') in 0.009102 seconds
-  Import took 0.010980 seconds .
+  Time since last request: 0.000218 seconds.
+  path: Assets/music/mx_layer_1.wav
+  artifactKey: Guid(7e22fcca510a9455fbbbecdcdba1fa27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/music/mx_layer_1.wav using Guid(7e22fcca510a9455fbbbecdcdba1fa27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a855a07f3dfb3a2c7ca2eaebc8917f68') in 0.012110 seconds
+  Import took 0.014128 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/stingers/new_stinger_3.wav
-  artifactKey: Guid(edb64033c52a24bdd9362c292e3fad03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/stingers/new_stinger_3.wav using Guid(edb64033c52a24bdd9362c292e3fad03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a6c5cc6c0d1b3750d476b13627eaa1') in 0.008726 seconds
-  Import took 0.010453 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000824 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.885 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.20 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1133 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.8 MB.
-System memory in use after: 118.9 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1597.
-Total: 1.226522 ms (FindLiveObjects: 0.161051 ms CreateObjectMapping: 0.031031 ms MarkObjects: 1.021955 ms  DeleteObjects: 0.011626 ms)
+  Time since last request: 0.000166 seconds.
+  path: Assets/music/mx_layer_2.wav
+  artifactKey: Guid(416e5515f0fe242348ca3355a01dd2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/music/mx_layer_2.wav using Guid(416e5515f0fe242348ca3355a01dd2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76887792d1f95c99e7c6f422291e3f06') in 0.009947 seconds
+  Import took 0.011698 seconds .
 
