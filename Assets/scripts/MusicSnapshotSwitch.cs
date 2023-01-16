@@ -21,7 +21,7 @@ public class MusicSnapshotSwitch : MonoBehaviour {
 	}
 
 	void OnTriggerEnter () {
-		Debug.Log("OnTriggerEnter");
+		Debug.Log("MusicSnapshotSwitch OnTriggerEnter: " + audioMixer.name + " fade to " + targetVolume + " over " + fadeDuration + " seconds.");
 		if(delayTime < 0.05f)
         {
 			StartCoroutine(FadeMixerGroup.StartFade (audioMixer, exposedParameter, fadeDuration, targetVolume));
